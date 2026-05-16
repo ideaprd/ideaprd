@@ -1,0 +1,13 @@
+[
+  {
+    "label": "Introduction",
+    "href": "pages/intro.html"
+  },
+  {
+    "label": "Chapter 1",
+    "children": [
+      { "label": "1.1 Background", "href": "pages/chapter-1-background.html" },
+      { "label": "1.2 Concepts", "href": "pages/chapter-1-concepts.html" }
+    ]
+  }
+]

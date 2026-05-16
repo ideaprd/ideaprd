@@ -1,0 +1,13 @@
+[
+  {
+    "label": "介绍",
+    "href": "pages/intro.html"
+  },
+  {
+    "label": "第一章",
+    "children": [
+      { "label": "1.1 背景", "href": "pages/chapter-1-background.html" },
+      { "label": "1.2 概念", "href": "pages/chapter-1-concepts.html" }
+    ]
+  }
+]

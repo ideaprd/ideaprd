@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://prd.ideaprd.com/</loc>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://prd.ideaprd.com/zh/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://prd.ideaprd.com/zh/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://prd.ideaprd.com/en/index.html"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://prd.ideaprd.com/en/index.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://prd.ideaprd.com/zh/index.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://prd.ideaprd.com/en/index.html"/>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://prd.ideaprd.com/zh/pages/intro.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://prd.ideaprd.com/zh/pages/intro.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://prd.ideaprd.com/en/pages/intro.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prd.ideaprd.com/en/pages/intro.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://prd.ideaprd.com/zh/pages/intro.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://prd.ideaprd.com/en/pages/intro.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://prd.ideaprd.com/zh/pages/chapter-1-background.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://prd.ideaprd.com/zh/pages/chapter-1-background.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://prd.ideaprd.com/en/pages/chapter-1-background.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prd.ideaprd.com/en/pages/chapter-1-background.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://prd.ideaprd.com/zh/pages/chapter-1-background.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://prd.ideaprd.com/en/pages/chapter-1-background.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prd.ideaprd.com/zh/pages/chapter-1-concepts.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://prd.ideaprd.com/zh/pages/chapter-1-concepts.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://prd.ideaprd.com/en/pages/chapter-1-concepts.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://prd.ideaprd.com/en/pages/chapter-1-concepts.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://prd.ideaprd.com/zh/pages/chapter-1-concepts.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://prd.ideaprd.com/en/pages/chapter-1-concepts.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>1.1 背景 | 凌霄阁</title>
+  <meta name="description" content="凌霄阁示例站第一章：了解静态多语言站点要解决的核心问题与使用场景。">
+  <meta property="og:title" content="1.1 背景 | 凌霄阁">
+  <meta property="og:site_name" content="ideaprd">
+  <meta property="og:description" content="凌霄阁示例站第一章：了解静态多语言站点要解决的核心问题与使用场景。">
+  <meta property="og:url" content="https://prd.ideaprd.com/zh/pages/chapter-1-background.html">
+  <meta property="og:image" content="https://prd.ideaprd.com/og-cover.png">
+  <meta property="og:locale" content="zh_CN">
+  <link rel="icon" href="../../assets/brand/icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --canvas: #f7f7f4;
+      --canvas-soft: #fafaf7;
+      --ink: #26251e;
+      --body: #5a5852;
+      --muted: #807d72;
+      --hairline: #e6e5e0;
+      --surface-card: #ffffff;
+      --primary: #f54e00;
+      --primary-active: #d04200;
+      --on-primary: #ffffff;
+      --rounded-lg: 12px;
+      --rounded-md: 8px;
+      --section: 80px;
+      --nav-h: 64px;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', system-ui, 'Segoe UI', sans-serif;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 1.5;
+      color: var(--body);
+      background: var(--canvas);
+    }
+    a { color: var(--ink); }
+    a:hover { text-decoration: underline; }
+    .top-nav {
+      height: var(--nav-h);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 24px;
+      background: var(--canvas);
+      border-bottom: 1px solid var(--hairline);
+    }
+    .top-nav .brand {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      font-weight: 500;
+      color: var(--ink);
+      letter-spacing: -0.02em;
+      text-decoration: none;
+    }
+    .top-nav .brand:hover { text-decoration: none; opacity: 0.85; }
+    .brand-icon {
+      width: 28px;
+      height: 28px;
+      flex-shrink: 0;
+      display: block;
+    }
+    .top-nav-actions { display: flex; align-items: center; gap: 12px; }
+    .btn-primary {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 10px 18px;
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 1;
+      color: var(--on-primary);
+      background: var(--primary);
+      border: none;
+      border-radius: var(--rounded-md);
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .btn-primary:hover { background: var(--primary-active); text-decoration: none; color: var(--on-primary); }
+    .layout { max-width: 720px; margin: 0 auto; padding: 0 24px 80px; }
+    .breadcrumb { font-size: 14px; color: var(--muted); margin: 24px 0 32px; }
+    .breadcrumb a { color: var(--muted); text-decoration: none; }
+    .breadcrumb a:hover { text-decoration: underline; color: var(--ink); }
+    .breadcrumb span { color: var(--ink); }
+    main h1 {
+      margin: 0 0 16px;
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 1.2;
+      letter-spacing: -0.72px;
+      color: var(--ink);
+    }
+    main h2 {
+      margin: 48px 0 12px;
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 1.3;
+      letter-spacing: -0.11px;
+      color: var(--ink);
+    }
+    main h3 {
+      margin: 24px 0 8px;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--ink);
+    }
+    main p { margin: 0 0 16px; }
+    .card {
+      background: var(--surface-card);
+      border: 1px solid var(--hairline);
+      border-radius: var(--rounded-lg);
+      padding: 24px;
+      margin-top: 24px;
+    }
+    code { font-family: 'JetBrains Mono', 'Fira Code', monospace; font-size: 13px; }
+    pre {
+      margin: 16px 0 0;
+      padding: 16px;
+      font-family: 'JetBrains Mono', 'Fira Code', monospace;
+      font-size: 13px;
+      line-height: 1.5;
+      background: var(--canvas-soft);
+      border: 1px solid var(--hairline);
+      border-radius: var(--rounded-md);
+      overflow-x: auto;
+    }
+    .site-footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--hairline);
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .site-footer p { margin: 0; }
+    .site-footer a { color: var(--body); font-weight: 500; }
+    .site-footer a:hover { color: var(--ink); }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "首页", "item": "https://prd.ideaprd.com/"},
+      {"@type": "ListItem", "position": 2, "name": "凌霄阁", "item": "https://prd.ideaprd.com/zh/index.html"},
+      {"@type": "ListItem", "position": 3, "name": "1.1 背景"}
+    ]
+  }
+  </script>
+</head>
+<body>
+  <header class="top-nav">
+    <a class="brand" href="../index.html"><img src="../../assets/brand/icon.svg" alt="" class="brand-icon" width="28" height="28" decoding="async" aria-hidden="true">凌霄阁</a>
+    <div class="top-nav-actions">
+      <a href="../../en/pages/chapter-1-background.html" class="btn-primary">English</a>
+    </div>
+  </header>
+  <div class="layout">
+    <nav class="breadcrumb" aria-label="面包屑">
+      <a href="../../index.html">首页</a> /
+      <a href="../index.html">凌霄阁</a> /
+      <span>1.1 背景</span>
+    </nav>
+    <main>
+      <h1>1.1 背景</h1>
+      <p>静态站点在 CDN / Pages 上部署简单、成本低、易缓存。多语言拆分 <code>zh/</code> 与 <code>/en/</code> 后，可独立维护文案与导航，同时共享同一套设计令牌。</p>
+      <h2>为何用相对路径</h2>
+      <p>内容页之间互链使用相对路径，便于在任意子域或预览路径下打开而不破坏链接。</p>
+      <h3>示例</h3>
+      <div class="card">
+        <p>从本页返回中文首页：</p>
+        <pre>&lt;a href="../index.html"&gt;凌霄阁&lt;/a&gt;</pre>
+      </div>
+    </main>
+    <footer class="site-footer">
+      <p>联系：<a href="mailto:mail@ideaprd.com">mail@ideaprd.com</a></p>
+    </footer>
+  </div>
+</body>
+</html>
